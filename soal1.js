@@ -29,7 +29,7 @@ function averageStudentScore(students) {
   return (
     students.reduce((total, student) => total + student.score, 0) /
     students.length
-  );
+  )
 }
 
 module.exports = { studentWithGrade,averageStudentScore,passedStudent }
